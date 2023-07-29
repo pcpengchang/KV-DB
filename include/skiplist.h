@@ -72,6 +72,7 @@ private:
 private:
   // 头节点
   SkiplistNode *header_;
+
   // 用来保证key不同
   std::unordered_map<std::string, double> key_set_;
 

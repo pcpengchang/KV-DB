@@ -359,11 +359,8 @@ void SkipList<K, V>::delete_element(K key)
     return;
 }
 
-// Search for element in skip list
+// 查找60
 /*
-                           +------------+
-                           |  select 60 |
-                           +------------+
 level 4     +-->1+                                                      100
                  |
                  |
